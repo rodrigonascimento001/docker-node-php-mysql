@@ -1,0 +1,20 @@
+{
+  "name": "docker-intro-api",
+  "version": "1.0.0",
+  "description": "Api introducao docker com node e mysl php",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./src/index"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "Rodrigo Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+
+}
